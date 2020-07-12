@@ -1,0 +1,335 @@
+/* body styles */
+body{
+  overflow-x: hidden;
+}
+
+/* navbar section styles */
+
+.nav-head{
+  width: 400px;
+}
+
+.logo{
+  margin-left: 10px;
+  margin-top: 13px;
+  max-height: 30px;
+  max-width: 30px;
+  float: left;
+}
+
+.nav-heading{
+  float: left;
+}
+
+.navbar a {
+    color: orange !important;
+} 
+
+.navbar a:hover{
+    color: white !important;
+}
+
+
+/* navbar styles ended */
+
+/* crousel section styles */
+
+.custom-carousel{
+    margin-top: -20px;
+}
+
+.custom-carousel img{
+    width: 100%;
+    max-height: 700px;
+}
+
+/* carousel section styles ended */
+
+
+
+
+/* about section styles */
+
+.about-section {
+    max-width: 104%;
+    padding: 70px;
+    background-color: #FFB100;
+}
+
+.about-section h3 {
+    font-size: 42px;
+    padding-bottom: 40px;
+    color: white !important;
+}
+
+.about-section p{
+    font-size: 18px;
+    font-weight: 200;
+    color: black;
+}
+
+/* about section styles ended */
+
+
+/* sectors section styles */
+
+.sectors-heading h2{
+    font-weight: 300;
+    margin-top: 80px;
+    text-align: center;
+  }
+  
+  .sectors-heading p {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .sector-img-container {
+    margin-left: 25px;
+    margin-top: 30px;
+      float: left;
+      position: relative;
+      width: auto;
+  }
+  
+  .sector-img-container h4{
+    text-align: center;
+  }
+    
+  .sector-img-container image {
+      height: 100px;
+      opacity: 1;
+      display: block;
+      transition: .5s ease;
+      backface-visibility: hidden;
+    }
+    
+    .middle {
+      padding-top: 60px;
+      transition: 1s ease;
+      opacity: 0;
+      position: absolute;
+      width:100%;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      text-align: center;
+      -webkit-transition: 1s ease;
+      -moz-transition: 1s ease;
+      -ms-transition: 1s ease;
+      -o-transition: 1s ease;
+  }
+    
+    .sector-img-container:hover .image {
+      opacity: 0.3;
+    }
+    
+    .sector-img-container:hover .middle {
+      opacity: 0.7;
+    }
+    
+    .text {
+      width: 95%;
+      background-color: black;
+      color: white;
+      font-size: 16px;
+      padding: 16px 32px;
+      padding-top: 48%;
+      padding-bottom: 48%;
+    }
+  
+    .sectors a{
+      text-decoration: none;
+      color: white;
+}
+
+/* sectors section styles ended */
+
+/* partners section styles */
+
+.partners {
+padding-top: 600px;
+padding-bottom: 100px;
+}
+.partners h3 {
+    font-weight:200;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 42px;
+    color: orange;
+}
+
+.marquee-styles {
+padding-top: 50px;
+}
+
+.marquee-styles img {
+    margin-right: 30px;
+}
+
+/* partner section styles ended */
+
+
+
+
+/* clients section styles */
+
+
+.clinets-comments{
+    margin-top:-20px;
+}
+.client-heading{
+    width: 100%;
+    height: 200px;
+    background-color: #A3C962;
+}
+
+.client-heading h1,h5{
+    text-align: center;
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.client-heading h1{
+    padding-top: 40px;
+}
+
+.client-section .item {
+    background: #A3C962;
+    text-align: center;
+    height: 180px;
+}
+
+.client-section h2 {
+    margin: 0;
+    color: #888;
+    padding-top: 80px;
+    font-size: 30px;
+}
+
+/* client section styles ended */
+
+
+
+
+/* contact section styles */
+
+.contact-us{
+}
+.contact-form{
+    background: #fff;
+    padding-top: 50px;
+    margin-bottom: 5%;
+    width: 100%;
+}
+.contact-form .form-control{
+    border-radius:1rem;
+}
+.contact-image{
+    text-align: center;
+}
+.contact-image img{
+    border-radius: 6rem;
+    width: 11%;
+    margin-top: -3%;
+    transform: rotate(29deg);
+}
+.contact-form form{
+    padding: 14%;
+}
+.contact-form form .row{
+    margin-bottom: -7%;
+}
+.contact-form h3{
+    margin-bottom: 8%;
+    margin-top: -10%;
+    text-align: center;
+    color: #0062cc;
+}
+.contact-form .btnContact {
+    width: 50%;
+    border: none;
+    border-radius: 1rem;
+    padding: 1.5%;
+    background: #dc3545;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+.btnContactSubmit
+{
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    color: #fff;
+    background-color: #0062cc;
+    border: none;
+    cursor: pointer;
+}
+
+/* contact us styles ended */
+
+
+
+/* footer section styles */
+
+
+.footer-section {
+    padding-top: 20px;
+      /* background: #FEB100; */
+      background: #A3C962;
+      color: white;
+  }
+  .footer .links ul {
+      list-style-type: none;
+  }
+  
+  .links h4 {
+    color: black;
+  }
+     
+  .links ul li a {
+          color: white;
+          transition: color 0.2s;
+  }
+  .links ul li a:hover{
+            text-decoration: none;
+            color: #4180cb;
+  }
+  .about-company li {
+    font-size: 25px;
+  }
+      
+  .about-company li a {
+          color: white;
+          transition: color 0.2s;
+  }
+  .about-company li a:hover {
+            color: #4180cb;
+  }
+        
+  .location i {
+    font-size: 18px;
+  }
+  
+  .location h4{
+    color: black;
+  }
+  
+  .copyright p {
+    font-size: 18px;
+   text-align: center;
+   color: black;
+    border-top: 4px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  .solar-logo{
+    height: 100px;
+  }
+  
+  .brand-logo{
+    width: 30px;
+  }
+
+/* footer styles ended */
