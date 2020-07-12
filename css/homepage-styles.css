@@ -328,8 +328,13 @@ padding-top: 50px;
     height: 100px;
   }
   
-  .brand-logo{
-    width: 30px;
+.brand-logo-fb{
+    width: 75px;
   }
+.brand-logo-linkedin{
+  margin-left: -15px;
+  padding-top: 4px;
+  width: 44px;
+}
 
 /* footer styles ended */
