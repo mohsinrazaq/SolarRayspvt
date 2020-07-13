@@ -33,6 +33,27 @@
     margin-bottom: 20px;
 }
 
-.on-grid{
+.inverters-products{
+    padding-left: 100px;
+    padding-bottom: 200px;
+}
+
+.inverters-products img {
+    padding: 30px;
+}
+
+.on-grid {
     text-align: center;
+}
+
+.product1 h4{
+    margin-left: 20px;
+}
+
+.product2 h4{
+    margin-left: 60px;
+}
+
+.on-grid-img-text{
+    margin-bottom: 80px;
 }
