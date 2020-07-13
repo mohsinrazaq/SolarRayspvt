@@ -19,7 +19,20 @@
 }
 
 .invertes-info p {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 150px;
+    padding-bottom: 70px;
     font-size: 18px;
+}
+
+
+.border{
+    width: 100%;
+    margin-top: 2%;
+    height: 1.5px;
+    background-color: #F99D1C;
+    margin-bottom: 20px;
+}
+
+.on-grid{
+    text-align: center;
 }
