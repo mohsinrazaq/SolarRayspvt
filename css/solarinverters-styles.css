@@ -55,5 +55,39 @@
 }
 
 .on-grid-img-text{
-    margin-bottom: 80px;
+    margin-bottom: 40px;
 }
+
+.hybrid-inverters-text{
+    text-align: center;
+}
+
+.hybrid-product {
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
+.hybrid-product img{
+    padding-left: 200px;
+}
+
+.hybrid-product h4{
+    padding-top: 30px;
+    padding-left: 100px;
+}
+
+.vfd-inverters-text{
+    text-align: center;
+}
+
+.vfd-product img{
+    padding-top: 50px;
+    padding-left: 200px;
+}
+
+.vfd-product h4{
+    padding-top: 30px;
+    padding-left: 180px;
+    padding-bottom: 150px;
+}
+
