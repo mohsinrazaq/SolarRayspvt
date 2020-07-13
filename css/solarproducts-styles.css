@@ -43,3 +43,9 @@
     background-color: #F99D1C;
     margin-bottom: 40px;
 }
+
+.certificate-images img{
+    padding: 80px;
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
