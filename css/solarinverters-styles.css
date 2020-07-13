@@ -1,0 +1,25 @@
+.inverter-bg img{
+    width: 100%;
+    height: 400px;
+    margin-top: -40px;
+}
+
+.solar-product-img-text h3{
+    color: aliceblue;
+    font-weight: bolder;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.invertes-info{
+    width: 80%;
+    margin-left: 10%;
+}
+
+.invertes-info p {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 18px;
+}
