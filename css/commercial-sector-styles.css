@@ -1,0 +1,26 @@
+.commercial-image img{
+    width: 100%;
+    margin-top: -20px;
+}
+
+.commercial-img-text h3{
+    color: black;
+    font-size: 42px;
+    font-weight: bolder;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.commercial-info{
+    padding-top: 100px;
+    padding-bottom: 200px;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.commercial-info p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 22px;
+}
