@@ -4,7 +4,8 @@
 }
 
 .industrial-img-text h3{
-    color: black;
+    border-bottom: 1px solid;
+    color: white;
     font-size: 42px;
     font-weight: bolder;
     position: absolute;

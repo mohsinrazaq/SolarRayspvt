@@ -5,6 +5,7 @@
 
 .agriculture-img-text h3{
     color: whitesmoke;
+    border-bottom: 1px solid;
     font-size: 42px;
     font-weight: bolder;
     position: absolute;
