@@ -9,13 +9,17 @@
     font-size: 42px;
     font-weight: bolder;
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
+.mobile-text{
+    display: none;
+}
+
 .residential-info{
-    padding-top: 100px;
+    padding-top: 40px;
     width: 80%;
     margin-left: 10%;
 }
@@ -27,4 +31,31 @@
 
 .residential-info h2{
     text-align: center;
+}
+
+
+
+
+@media(max-width:500px){
+
+    .residential-sector img{
+        width: 100%;
+        margin-top: -25px;
+    }
+
+    .residential-img-text {
+        display: none;
+    }
+
+    .mobile-text{
+        display: inline-flex;
+        margin-top: 60px;
+        margin-left: 40px;
+        font-size: 18px;
+        color: tomato;
+        border-top: 1px solid;
+        border-bottom: 1px solid;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
 }
