@@ -33,6 +33,64 @@
     text-align: center;
 }
 
+.our-solutions{
+    text-align: center;
+}
+
+.solution-list { 
+    text-align: center;
+    margin-left:40%;
+ }
+
+.solution-links{
+    list-style: none;
+    display:inline;
+    text-align: center; 
+    
+}
+
+.solution-links a{
+    float: left; 
+    padding: 15px;
+
+}
+
+.facts{
+    margin-left: 10%;
+    width: 80%;
+    padding: 20px;
+    margin-top: 50px;
+    border-bottom: 1px solid red;
+}
+
+.solution-div{
+    margin-left:15%;
+    display: flex;
+}
+
+.solution-image{
+    text-align: center;
+    margin-top: 5%;
+    margin-right: 15%;
+    padding: 15px;
+}
+
+
+.smart-facts{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.smart-facts-images{
+    padding: 10px;
+    padding-bottom: 100px;
+    flex-direction: row;
+    flex-wrap: no-wrap;
+}
+
 
 
 
@@ -57,5 +115,22 @@
         border-bottom: 1px solid;
         padding-top: 20px;
         padding-bottom: 20px;
+    }
+    .solution-list { 
+        text-align: center;
+        margin-left:10%;
+     }
+    
+    .solution-links{
+        list-style: none;
+        display:inline;
+        text-align: center; 
+        
+    }
+    
+    .solution-links a{
+        float: left; 
+        padding: 15px;
+    
     }
 }
