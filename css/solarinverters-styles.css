@@ -5,12 +5,16 @@
 }
 
 .solar-product-img-text h3{
-    color: aliceblue;
+    color: rgb(255, 242, 240);
     font-weight: bolder;
     position: absolute;
     top: 25%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.mobile-heading{
+    display:none;
 }
 
 .invertes-info{
@@ -19,7 +23,7 @@
 }
 
 .invertes-info p {
-    padding-top: 150px;
+    padding-top: 40px;
     padding-bottom: 70px;
     font-size: 18px;
 }
@@ -91,3 +95,21 @@
     padding-bottom: 150px;
 }
 
+@media (max-width:500px){
+
+    .solar-product-img-text{
+        display: none;
+    }
+
+    .mobile-heading {
+        display: inline-flex;
+        margin-left: 120px;
+        margin-top: 60px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-weight: bold;
+        border-top: 1px solid;
+        border-bottom: 1px solid;
+        color: tomato;
+    }
+}
