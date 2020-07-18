@@ -14,8 +14,12 @@
     transform: translate(-50%, -50%);
 }
 
+.mobile-heading{
+    display: none;
+}
+
 .agriculture-info{
-    padding-top: 100px;
+    padding-top: 40px;
     width: 80%;
     margin-left: 10%;
 }
@@ -28,4 +32,23 @@
 
 .agriculture-info h2{
     text-align: center;
+}
+
+@media(max-width:500px){
+
+    .agriculture-img-text{
+        display: none;
+    }
+
+    .mobile-heading{
+        display: inline-flex;
+        margin-top: 60px;
+        margin-left: 25px;
+        font-size: 18px;
+        color: tomato;
+        border-top: 1px solid;
+        border-bottom: 1px solid;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
 }

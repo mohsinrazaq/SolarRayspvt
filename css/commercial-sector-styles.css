@@ -14,8 +14,12 @@
     transform: translate(-50%, -50%);
 }
 
+.mobile-heading{
+    display: none;
+}
+
 .commercial-info{
-    padding-top: 100px;
+    padding-top: 40px;
     padding-bottom: 200px;
     width: 80%;
     margin-left: 10%;
@@ -24,4 +28,23 @@
 .commercial-info p{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 22px;
+}
+
+@media(max-width:500px){
+
+    .commercial-img-text{
+        display: none;
+    }
+
+    .mobile-heading{
+        display: inline-flex;
+        margin-top: 60px;
+        margin-left: 25px;
+        font-size: 18px;
+        color: tomato;
+        border-top: 1px solid;
+        border-bottom: 1px solid;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
 }

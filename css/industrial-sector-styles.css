@@ -1,53 +1,46 @@
-.residential-sector img{
+.industrial-sector-image{
     width: 100%;
     margin-top: -100px;
 }
 
-.residential-img-text h3{
-    color: whitesmoke;
+.industrial-img-text h3{
     border-bottom: 1px solid;
+    color: white;
     font-size: 42px;
     font-weight: bolder;
     position: absolute;
-    top: 55%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-.mobile-text{
+.mobile-heading{
     display: none;
 }
 
-.residential-info{
+.industrial-info{
     padding-top: 40px;
     width: 80%;
     margin-left: 10%;
 }
 
-.residential-info p{
+.industrial-info p{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 22px;
 }
 
-.residential-info h2{
-    text-align: center;
-}
-
-
-
-
 @media(max-width:500px){
 
-    .residential-sector img{
+    .industrial-sector-image img{
         width: 100%;
         margin-top: -25px;
     }
 
-    .residential-img-text {
+    .industrial-img-text{
         display: none;
     }
 
-    .mobile-text{
+    .mobile-heading{
         display: inline-flex;
         margin-top: 60px;
         margin-left: 25px;
