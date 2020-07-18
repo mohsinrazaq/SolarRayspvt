@@ -1,11 +1,29 @@
-.certificates-img {
-    float: left;
+.certificates-container img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;   
 }
 
-.container {
-    float: left;
+.mobile-image{
+    display: none;
 }
 
-.image-element {
-    float: left;
+
+@media(max-width:500px){
+
+    .certificates-container img{
+        display: none;
+        padding: 40px;
+    }
+
+    .mobile-image {
+        display:block;
+    }
+    .mobile-image img{
+        display: block;
+        height: auto;
+        width: 100%;
+    }
+    
+    
 }
