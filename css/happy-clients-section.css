@@ -1,6 +1,12 @@
 .clients-section{
     padding-top: 150px;
     width: 100%;
-    height: 600px;
+    height: 400px;
     background: #fbfff5;
+}
+
+@media(max-width:500px){
+    .clients-section{
+        height: 650px;
+    }
 }
