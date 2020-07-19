@@ -3,7 +3,13 @@ body{
   overflow-x: hidden;
   margin: 0;
   padding: 0;
+
 }
+
+body p,h4,h5,h3,h2{
+  color: black;
+}
+
 
 /* navbar section styles */
 
@@ -375,15 +381,25 @@ padding-top: 50px;
   font-size: 18px;
 }
 
-.location h4,p{
+.location p{
   color: rgb(255, 255, 255);
 }
+
+.location h4{
+  color: rgb(255, 255, 255);
+}
+  
   
 .copyright p {
   font-size: 18px;
   text-align: center;
   color: rgb(255, 255, 255);
   border-top: 1px solid rgba(233, 12, 12, 0.849);
+}
+
+
+.text-white-50{
+  color: whitesmoke;
 }
   
 .solar-logo{

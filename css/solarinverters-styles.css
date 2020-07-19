@@ -51,11 +51,13 @@
 }
 
 .product1 h4{
+    color: black;
     margin-left: 20px;
 }
 
 .product2 h4{
     margin-left: 60px;
+    color: black;
 }
 
 .on-grid-img-text{
@@ -69,6 +71,7 @@
 .hybrid-product {
     margin-top: 30px;
     margin-bottom: 70px;
+
 }
 
 .hybrid-product img{
@@ -78,6 +81,7 @@
 .hybrid-product h4{
     padding-top: 30px;
     padding-left: 100px;
+    color: black;
 }
 
 .vfd-inverters-text{
@@ -93,6 +97,7 @@
     padding-top: 30px;
     padding-left: 180px;
     padding-bottom: 150px;
+    color: black;
 }
 
 @media (max-width:500px){
