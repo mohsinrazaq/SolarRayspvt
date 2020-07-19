@@ -237,7 +237,6 @@ padding-top: 50px;
 .contact-form{
   background: #fff;
   padding-top: 50px;
-  margin-bottom: 5%;
   width: 100%;
 }
 
@@ -290,6 +289,31 @@ padding-top: 50px;
   background-color: #0062cc;
   border: none;
   cursor: pointer;
+}
+
+.map-container{
+  display: flex;
+  justify-content: center;
+
+}
+
+.map-frame{
+  width:1080px;
+  height:350px;
+}
+
+
+.mapouter{
+  position:relative;
+  text-align:right;
+  height:550px;
+  width:1100px;
+}
+#gmap_canvas {
+  overflow:hidden;
+  background:none !important;
+  height:500px;
+  width:1100px;
 }
 
 /* contact us styles ended */
@@ -395,6 +419,28 @@ padding-top: 50px;
   .clients-comments-p{
     padding-top: 30px;
     padding-bottom: 30px;
+  }
+
+  .map-container{
+    padding-bottom: 40px;
+  }
+
+  .map-frame{
+    width:600px;
+    height:300px;
+  }
+  
+  .mapouter{
+    position:relative;
+    text-align:right;
+    height:auto;
+    width:auto;
+  }
+  #gmap_canvas {
+    overflow:hidden;
+    background:none !important;
+    height:220px;
+    width:400px;
   }
 
 }
