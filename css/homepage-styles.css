@@ -66,6 +66,10 @@ body p,h4,h5,h3,h2{
   background-color: #FFB100;
 }
 
+.clr{
+  font-size: 42px !important;
+}
+
 .about-section h3 {
   font-size: 42px;
   padding-bottom: 40px;
