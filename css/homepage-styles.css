@@ -213,6 +213,10 @@ padding-top: 50px;
   font-size: 30px;
 }
 
+.clients-comments-p{
+  padding-bottom: 20px;
+}
+
 /* client section styles ended */
 
 
@@ -369,3 +373,19 @@ padding-top: 50px;
 }
 
 /* footer styles ended */
+
+
+@media(max-width:500px){
+
+  .client-section .item {
+    background: #A3C962;
+    text-align: center;
+    height: 300px;
+  }
+
+  .clients-comments-p{
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+}
