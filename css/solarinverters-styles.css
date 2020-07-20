@@ -60,6 +60,11 @@
     color: black;
 }
 
+.product3 h4{
+    margin-left: 20px;
+    color: black;
+}
+
 .on-grid-img-text{
     margin-bottom: 40px;
 }
@@ -156,6 +161,19 @@
         margin: 0px;
         padding: 0px;
         margin-left: 10px;
+    }
+
+    .product3 img {
+        margin: 0;
+        padding: 0;
+        margin-top: 80px;
+    }
+
+    .product3 h4{
+        margin: 0;
+        padding: 0;
+        margin-top: 30px;
+        margin-left: -15px;
     }
 
     .hybrid-inverters{
