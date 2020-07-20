@@ -69,17 +69,34 @@
     <!-- navbar ended -->
 
     <!-- certificates section started -->
-    <section class="certificates-section">   
-        <div class="certificates-container"> 
-          <img src="Images/certificates/certificate-image.JPG" alt="" srcset="">  
-          <div class="mobile-image">
-            <img src="Images/certificates/certificate-1.png" alt="" srcset="">     
-            <img src="Images/certificates/certificate-2.png" alt="" srcset=""> 
-            <img src="Images/certificates/certificate-3.png" alt="" srcset=""> 
-          </div>   
-         
-        </div>
-    </section>
+    <section class="certificate-section">
+      <img id="myImg1" src="Images/certificates/certificate-1.png" alt="certificate 1" style="width:100%;max-width:280px;height: 300px;">
+
+      <!-- The Image 1 -->
+      <div id="myModal1" class="modal1">
+          <span class="close1">&times;</span>
+          <img class="modal-content1" id="img01">
+          <div id="caption1"></div>
+      </div>
+
+      <img id="myImg2" src="Images/certificates/certificate-2.png" alt="certificate 2" style="width:100%;max-width:280px;height: 300px;">
+
+      <!-- The Image 2 -->
+      <div id="myModal2" class="modal2">
+          <span class="close2">&times;</span>
+          <img class="modal-content2" id="img02">
+          <div id="caption2"></div>
+      </div>
+
+      <img id="myImg3" src="Images/certificates/certificate-3.png" alt="certificate 3" style="width:100%;max-width:280px;height: 150px;">
+
+      <!-- The Modal -->
+      <div id="myModal3" class="modal3">
+          <span class="close3">&times;</span>
+          <img class="modal-content3" id="img03">
+          <div id="caption3"></div>
+      </div>
+  </section>
     <!-- certificates section ended -->
 
     <!-- footer section started -->
@@ -135,5 +152,6 @@
 
   </div>
   <!-- body wrapper ended   -->
+  <script src="js/image-script.js"></script>
 </body>
 </html>
