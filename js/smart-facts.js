@@ -1,3 +1,8 @@
+function funct5kw() {
+    document.getElementById("h6-1").innerHTML = "16";
+    document.getElementById("h6-3").innerHTML = "> 8,000 units per year";
+}
+
 function funct10kw() {
     document.getElementById("h6-1").innerHTML = "32";
     document.getElementById("h6-3").innerHTML = "> 16,000 units per year";
