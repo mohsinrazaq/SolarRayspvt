@@ -34,8 +34,13 @@ body p,h4,h5,h3,h2{
 } 
 
 .navbar a:hover{
-  color: white !important;
+  color: rgb(204, 32, 32) !important;
 }
+
+.dropdown-menu{
+  background-color: black;
+}
+
 
 
 /* navbar styles ended */
@@ -97,6 +102,7 @@ body p,h4,h5,h3,h2{
 .sectors-heading p {
   text-align: center;
   margin-bottom: 50px;
+  font-size: 28px;
 }
   
 .sector-img-container {
@@ -259,6 +265,13 @@ padding-top: 50px;
 
 .contact-form .form-control{
   border-radius:1rem;
+}
+
+.contact-us-form input{
+  font-size: 18px;
+}
+.contact-us-form textarea{
+  font-size: 18px;
 }
 
 .quotation-heading{
